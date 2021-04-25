@@ -20,6 +20,12 @@
     margin-bottom: 0;
 }
 
+.footer-nav{
+    background: none;
+    color: #a9a9a9;
+    border: 0;
+}
+
 @media(max-width: 768px) {
     .city{
         padding-bottom: 0.313rem;

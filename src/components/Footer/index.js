@@ -26,11 +26,11 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 my-2">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav">Home</a>
+                                <button className="footer-nav">Home</button>
                                 <br />
-                                <a className="footer-nav">About Me</a>
+                                <button className="footer-nav">About Me</button>
                                 <br />
-                                <a className="footer-nav">Contacts</a>
+                                <button className="footer-nav">Contacts</button>
                                 <br />
                             </div>
                         </div>
