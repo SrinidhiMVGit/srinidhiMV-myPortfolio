@@ -55,6 +55,7 @@ body{
     color: var(--primary-white)  !important;
     margin-left: var(--margin-left) !important;
     margin-right: var(--margin-right) !important;
+    margin-top: 2rem;
     text-align: center;
     border: 0.1875rem solid var(--primary-dark) ;
     letter-spacing: 0rem;
