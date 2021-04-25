@@ -1,0 +1,27 @@
+.footer {
+    background: #000000;
+    color: #a9a9a9;
+    padding: 3rem;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: rgb(0, 191, 255);
+    cursor: pointer;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+@media(max-width: 768px) {
+    .city{
+        padding-bottom: 0.313rem;
+    }
+}
