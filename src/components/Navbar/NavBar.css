@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+/*Declaring variables */
+:root {
+    --primary-white: #fff;
+    --primary-skyblue: rgb(0, 191, 255);
+    --primary-dark: rgba(255, 255, 255, 0);
+    --margin-left: 0.75rem;
+    --margin-right: 0.75rem;
+}
+
+body{
+    font-family: "RobotoCondensed" sans-serif;
+    letter-spacing: 0.0375rem;
+}
+
+.container-left {
+    padding-left: 0 !important;
+}
+.left-nav {
+    width: 100%;
+    font-weight: 500;
+    display: inline-flex;
+    padding-bottom: 1rem !important;
+}
+
+.my-name  p {
+    color : var(--primary-white) !important;
+    margin-left: var(--margin-left) !important;
+    margin-right: var(--margin-right) !important;
+    text-align: left;
+    border: 0.1875rem solid var(--primary-dark) ;
+    padding-bottom: 0.25rem !important;
+    letter-spacing: 0rem;
+    font-size: 1.250rem;
+    font-weight: 900;
+    width:14rem;
+}
+
+.my-name-kannada  p {
+    letter-spacing: 0rem;
+    font-size: 1.250rem;
+    font-weight: 900;
+    width:13rem;
+}
+@media(max-width: 768px) {
+    .my-name-kannada { 
+        display: none;
+    }
+    .left-nav {
+        padding-bottom: 0.313rem;
+    }
+}
+.my-profession > p {
+    color: var(--primary-white)  !important;
+    margin-left: var(--margin-left) !important;
+    margin-right: var(--margin-right) !important;
+    text-align: center;
+    border: 0.1875rem solid var(--primary-dark) ;
+    letter-spacing: 0rem;
+}
+
+.my-name-kannada:hover, .my-name:hover, .my-profession:hover {
+    border: 0.1875rem solid var(--primary-skyblue);
+    margin: -0.1875rem;
+}
+
+/* menu links */
+
+nav {
+    z-index: 2;
+}
+
+nav a.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.0375rem;
+    cursor: pointer;
+}
+
+.navbar-nav > li > a {
+    color: var(--primary-white) !important;
+    border-top: 0.1875rem solid var(--primary-dark) ;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid var(--primary-skyblue);
+}
+
+.navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-skyblue);
+}
